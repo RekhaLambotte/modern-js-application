@@ -1,16 +1,40 @@
 {
-  "name": "card-bd",
+  "name": "-y",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node script.js",
-    "scss": "node-sass --watch src/scss/ --output src/css/ --source-map true"
+    "scss": "node-sass --watch src/scss/ --output src/css/ --source-map true",
+    "dev": "rm -rf .cache dist && parcel index.html",
+    "build": "rm -rf .cache dist && parcel build index.html",
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^5.0.0"
   },
-  "description": ""
+  "description": "Adaptation du projet characters-JS avec des outils modernes",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RekhaLambotte/modern-js-application.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/RekhaLambotte/modern-js-application/issues"
+  },
+  "homepage": "https://github.com/RekhaLambotte/modern-js-application#readme",
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  }
 }
