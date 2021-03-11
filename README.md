@@ -10,6 +10,9 @@ Nous sommes en mars 2021.
 * SASS
 * Javascript
 * Tailwind
+* parcel
+* esLint
+* prettier
 
 ## Auteurs:
 Projet solo
@@ -35,12 +38,14 @@ Délai: 4 jours
 
 
 ## Statut:
-en cours
+non terminé
 
 ## Projet déployé: 
 Lien Github : https://github.com/RekhaLambotte/modern-js-application.git
 
-Lien web:  
-
 ## Remarques:
 Afin de me faciliter le travail, certaines pratiques avaient déjà été mise en place comme un framework tel que tailwind et un package manager tel que SASS ainsi que la séparatiobn des code javascript en différentes pages pour plus de clareté.  
+
+Impossible d'installer Parcel sur le projet. Cependant j'ai réussi à installer parcel dans un dossier qui a été créé  pour le test. Le problème est donc lié à ce projet. 
+
+Concernant esLint et prettier, prettier fait conflit avec esLint. 
